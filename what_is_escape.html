@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+      
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #1A1A1A;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        margin: 0 auto;
+        background-color: #1A1A1A;
+        position: relative;
+      }
+      
+      .content {
+        display: flex;
+        min-height: 720px;
+        padding: 40px;
+      }
+      
+      .text-section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 40px;
+      }
+      
+      .image-section {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .title {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 36px;
+        font-weight: bold;
+        color: #FF3333;
+        margin-bottom: 30px;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+      
+      .body-text {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+      }
+      
+      .key-details {
+        margin-top: 30px;
+      }
+      
+      .detail-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      
+      .detail-icon {
+        color: #0099FF;
+        font-size: 24px;
+        margin-right: 15px;
+        width: 30px;
+        text-align: center;
+      }
+      
+      .detail-text {
+        font-size: 18px;
+      }
+      
+      .event-image {
+        max-width: 100%;
+        max-height: 600px;
+        border: 2px solid #0099FF;
+        box-shadow: 0 0 20px rgba(255, 51, 51, 0.2), 0 0 40px rgba(0, 153, 255, 0.3);
+      }
+      
+      .footer {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 40px;
+      }
+      
+      .footer-logo {
+        height: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="content">
+        <div class="text-section">
+          <h1 class="title">THE MISSION & THE ARENA</h1>
+          <p class="body-text">
+            An immersive mission built on exclusivity, high-energy music, and unparalleled vibes.
+          </p>
+          
+          <div class="key-details">
+            <div class="detail-item">
+              <i class="fas fa-calendar-alt detail-icon"></i>
+              <span class="detail-text"><strong>Date:</strong> August 23rd</span>
+            </div>
+            
+            <div class="detail-item">
+              <i class="fas fa-map-marker-alt detail-icon"></i>
+              <span class="detail-text"><strong>Venue:</strong> The Vault Social House, VI, Lagos</span>
+            </div>
+            
+            <div class="detail-item">
+              <i class="fas fa-users detail-icon"></i>
+              <span class="detail-text"><strong>Attendance:</strong> 200+ (Curated Guests)</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="image-section">
+          <img src="/home/ubuntu/upload/ESCAPE2THEVAULTINFOFLYERR@3x.png" alt="Escape 2 The Vault Info Flyer" class="event-image">
+        </div>
+      </div>
+      
+      <div class="footer">
+        <img src="/home/ubuntu/upload/esclogoredacted.png" alt="Escape 2 The Vault Logo" class="footer-logo">
+        <img src="/home/ubuntu/upload/search_images/V6ni7rFKBc4L.png" alt="Hell Energy Logo" class="footer-logo">
+      </div>
+    </div>
+  </body>
+</html>
+

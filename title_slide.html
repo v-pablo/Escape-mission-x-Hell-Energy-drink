@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
+      
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #1A1A1A;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+      }
+      
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        margin: 0 auto;
+        background-image: url('/home/ubuntu/abstract_background_red_blue.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 720px;
+        padding: 40px;
+        text-align: center;
+      }
+      
+      .title {
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 72px;
+        font-weight: bold;
+        margin-top: 60px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        letter-spacing: 2px;
+      }
+      
+      .subtitle {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        margin-top: 20px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+      
+      .logos {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      
+      .logo {
+        max-height: 150px;
+        filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+      }
+      
+      .escape-logo {
+        max-width: 300px;
+        max-height: 150px;
+      }
+      
+      .hell-logo {
+        max-width: 400px;
+        max-height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="content">
+        <div class="top-section">
+          <img src="/home/ubuntu/upload/esclogoredacted.png" alt="Escape 2 The Vault Logo" class="logo escape-logo">
+        </div>
+        
+        <div class="middle-section">
+          <h1 class="title">A MATCH MADE IN... WELL, YOU KNOW.</h1>
+          <h2 class="subtitle">Sponsorship Proposal</h2>
+        </div>
+        
+        <div class="bottom-section">
+          <img src="/home/ubuntu/upload/search_images/V6ni7rFKBc4L.png" alt="Hell Energy Logo" class="logo hell-logo">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
